@@ -1,0 +1,35 @@
+<div class="container">
+  <div class="Logincontainer">
+
+<!-- <div class="row">
+  <div class="col-md-6 col-md-offset-5"> -->
+    <form   [formGroup]="rForm" (ngSubmit)="onSubmit(rForm.value)">
+      <div class="Loginform">
+        <div class="form-group">
+          <label>Name</label><br>
+          <input type="text" class="form-control" name = "userId" formControlName="userId" style="width:200px;">
+          <div class="form-control-feedback" *ngIf="rForm.controls.userId.errors && (rForm.controls.userId.dirty || rForm.controls.userId.touched)">
+            <p class="text-danger" *ngIf="rForm.controls.userId.errors.required">Email is required</p>
+            <p class="text-danger" *ngIf="rForm.controls.userId.errors.pattern">Not a valid pattern </p>
+          </div> 
+        </div>
+        
+        <div class="form-group">
+          <label>Password</label><br>
+          <input type="password" class="form-control" formControlName="password" style="width:200px;">
+          <div class="form-control-feedback" *ngIf="rForm.controls.password.errors && (rForm.controls.password.dirty || rForm.controls.password.touched)">
+            <p class="text-danger" *ngIf="rForm.controls.password.errors.required">Password is required</p>
+            <p class="text-danger" *ngIf="rForm.controls.password.errors.pattern">Not a valid pattern </p>
+          </div> 
+        </div>
+        <div class="form-group">
+            <input type="submit" class="btn btn-primary button2" value="Submit Form" [disabled]="!rForm.valid" style="margin-left:40px;">
+          </div>
+      </div>
+    </form>
+  <!-- </div>
+</div> -->
+</div>
+    
+</div>
+

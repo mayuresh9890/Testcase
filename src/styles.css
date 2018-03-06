@@ -1,0 +1,4 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+body{background-color: rgb(70, 119, 103);}
+.row{margin: 0px;}

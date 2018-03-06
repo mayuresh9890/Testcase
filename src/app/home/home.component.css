@@ -1,0 +1,25 @@
+h1{
+  text-align: center;
+  color: cadetblue;}
+
+.cmd_getId{
+  width:100px;
+  margin-left: 420px;}
+
+  cmd_getId:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+.homecontent{
+  padding: 10px;
+  background-color: blanchedalmond;
+  margin: 100px;}
+
+.cmd_logout{
+  width:100px;
+  background-color: #b54040;}
+  
+.cmd_logout:hover{
+  background-color: red;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}

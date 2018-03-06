@@ -1,0 +1,11 @@
+.Logincontainer{ padding: 10px;background-color: darkgray; width: 500px;margin-top: 200PX; margin-left: 300PX;border-radius: 10px;}
+.Loginform{margin-left: 140PX;}
+.button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.form-control-feedback{
+    position: relative;
+    width: auto;
+    text-align: left;
+}

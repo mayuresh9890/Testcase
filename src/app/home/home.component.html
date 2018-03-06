@@ -1,0 +1,19 @@
+<div class="homecontent">
+  <h1>Hi {{userid}}</h1>
+  <button class="btn btn-primary cmd_getId" (click) = 'getIpAddress()'>GetIP</button>
+  <button class="btn btn-primary cmd_logout" (click) = 'logout()'>Logout</button>
+</div>
+
+<!-- Modal -->
+<bs-modal #modal>
+  <bs-modal-header>
+    <h4 class="modal-title">LogoutAlert</h4>
+  </bs-modal-header>
+  <bs-modal-body>
+    You are Logout in {{countData}} seconds..
+  </bs-modal-body>
+  <bs-modal-footer>
+    <button type="button" class="btn btn-default" data-dismiss="modal" (click)="onCancel()">Cancel</button>
+    <button type="button" class="btn btn-primary" (click)="logout()">Ok</button>
+  </bs-modal-footer>
+</bs-modal>
