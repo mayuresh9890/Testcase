@@ -9,8 +9,6 @@ import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
 import { HttpModule } from '@angular/http';
 import { BsModalModule } from 'ng2-bs3-modal';
-import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {MatButtonModule} from '@angular/material';
 
 const appRoutes: Routes = [
   { path: '', component: LoginComponent, pathMatch: 'full'},
@@ -31,8 +29,6 @@ const appRoutes: Routes = [
     HttpModule,
     UserIdleModule.forRoot({idle: 60, timeout: 30, ping: 30}),
     BsModalModule,
-    BrowserAnimationsModule,
-    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
