@@ -5,7 +5,6 @@ import { Observable } from 'rxjs/Observable';
 import {Router} from '@angular/router';
 import { UserIdleService } from 'angular-user-idle';
 import { BsModalComponent } from 'ng2-bs3-modal';
-declare var $ : any;
 
 
 @Component({
